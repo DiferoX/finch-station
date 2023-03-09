@@ -2,24 +2,16 @@ import React from 'react'
 import '../styles/Stop.css'
 import Img0001 from '../assets/0003.jpg'
 
-const Stop = ({stop}) => {
+const Stop = ({stop, infoStation}) => {
   // console.log(stop)
   return (
 
-    <div className="col">
-      <div className="cardBox card">
-        <img src={Img0001} className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h6 className="card-title">{stop.name}</h6>
-          <p className="card-text">{stop.agency}</p>
-        </div>
+    <div className="cardBox card mb-2" onClick={() => infoStation(stop)}>
+      <div className="card-body">
+        <h6 className="card-title">{stop.name}</h6>
+        <p className="card-text">{stop.agency}</p>
       </div>
     </div>
-
-
-
-
-    
   )
 }
 

@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <nav id="navbar" className="navbar navbar-dark px-5 mb-3">
       <a className="navbar-brand" href="#home">
-        <img src={Logo} alt="Logo" width="100" class="d-inline-block align-text-center m-3" />
+        <img src={Logo} alt="Logo" width="100" className="d-inline-block align-text-center m-3" />
         <h2>Finch Station</h2>
       </a>
       <ul className="nav nav-pills">

@@ -14,27 +14,27 @@ const Services = () => {
         </div>
         <div className="row text-center">
           <div className="serviceContent col-md-4">
-              <span className="iconContent fa-stack fa-4x">
-                <MdAccessible className='serviceIcon' />
-              </span>
-              <h4 className="my-3">Parking</h4>
-              <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <span className="iconContent fa-stack fa-4x">
+              <MdAccessible className='serviceIcon' />
+            </span>
+            <h4 className="my-3">Parking</h4>
+            <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
           </div>
           <div className="serviceContent col-md-4">
-              <span className="iconContent fa-stack fa-4x">
-                <FaCoffee className='serviceIcon' />
-              </span>
-              <h4 className="my-3">Restaurant</h4>
-              <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <span className="iconContent fa-stack fa-4x">
+              <FaCoffee className='serviceIcon' />
+            </span>
+            <h4 className="my-3">Restaurant</h4>
+            <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
           </div>
           <div className="serviceContent col-md-4">
-              <span className="iconContent fa-stack fa-4x">
-                <BsShop className='serviceIcon' />
-              </span>
-              <h4 className="my-3">Stores</h4>
-              <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <span className="iconContent fa-stack fa-4x">
+              <BsShop className='serviceIcon' />
+            </span>
+            <h4 className="my-3">Stores</h4>
+            <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
           </div>
-      </div>
+        </div>
       </div>
     </section>
   )
