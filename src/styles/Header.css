@@ -1,0 +1,12 @@
+.header{
+  display: flex;
+  justify-content: center;
+  background-color: #111;
+  margin-bottom: 5vh;
+  box-shadow: 0 10px 10px rgba(0,0,0);
+}
+
+.headerImg{
+  /* height: 100%; */
+  width: 100%;
+}

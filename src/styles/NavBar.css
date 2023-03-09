@@ -1,0 +1,21 @@
+#navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 5px 5px red;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar-brand
+{
+  display: flex;
+  align-items: center;
+}
+
+nav li{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}

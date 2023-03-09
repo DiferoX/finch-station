@@ -1,13 +1,30 @@
 import React from 'react'
+import '../styles/Stop.css'
+import Img0001 from '../assets/0003.jpg'
 
 const Stop = ({stop}) => {
   // console.log(stop)
   return (
-    <div className='card card-body bg-danger text-center p-5'>
-      <h2>{stop.name}</h2>
-      <p>{stop.agency}</p>
+
+    <div className="col">
+      <div className="cardBox card">
+        <img src={Img0001} className="card-img-top" alt="..." />
+        <div className="card-body">
+          <h6 className="card-title">{stop.name}</h6>
+          <p className="card-text">{stop.agency}</p>
+        </div>
+      </div>
     </div>
+
+
+
+
+    
   )
 }
 
 export default Stop
+{/* <div className='card card-body bg-danger text-center p-5'>
+      <h2>{stop.name}</h2>
+      <p>{stop.agency}</p>
+    </div> */}

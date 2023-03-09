@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/StopList.css'
 import { useEffect, useState } from 'react'
 import Stop from './Stop';
 import { v4 as uuidv4 } from 'uuid';
@@ -17,17 +18,20 @@ const StopList = () => {
   }, [])
 
   return (
-    <div>
-      {
-        stops.map((stop) => {
-          return (
-            <Stop
-              key={uuidv4()}
-              stop={stop}
-            />
-          );
-        })
-      }
+    <div id='stopContent' className='stopContent'>
+      <h1>Finch Station</h1>
+      <div className="row row-cols-1 row-cols-md-5 g-4 p-5">
+        {
+          stops.map((stop) => {
+            return (
+              <Stop
+                key={uuidv4()}
+                stop={stop}
+              />
+            );
+          })
+        }
+      </div>
     </div>
   )
 }
