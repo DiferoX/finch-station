@@ -1,20 +1,23 @@
 import React from 'react'
-import Logo from '../../public/logo.svg'
+import Logo from '../../src/assets/logo.svg'
 import '../styles/NavBar.css'
 
 const NavBar = () => {
   return (
     <nav id="navbar" className="navbar navbar-dark px-5 mb-3">
-      <a className="navbar-brand" href="/">
+      <a className="navbar-brand" href="#home">
         <img src={Logo} alt="Logo" width="100" class="d-inline-block align-text-center m-3" />
         <h2>Finch Station</h2>
       </a>
       <ul className="nav nav-pills">
         <li className="nav-item">
-          <a className="nav-link" href="#stopContent">First</a>
+          <a className="nav-link" href="#services">Services</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#scrollspyHeading2">Second</a>
+          <a className="nav-link" href="#stopContent">Routes</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#contact">Contact</a>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>

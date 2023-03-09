@@ -1,0 +1,36 @@
+.serviceMainConten{
+  background-color: #eee;
+  padding: 100px 0;
+}
+
+.serviceContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  background-color: darkblue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.serviceIcon{
+  font-size: 10vh;
+  color: white;
+}
+
+.serviceMainConten h6{
+  font-style: italic;
+}
+
+.serviceMainConten h2, .serviceMainConten h4{
+  color: darkorange;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}

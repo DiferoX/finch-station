@@ -20,17 +20,19 @@ const StopList = () => {
   return (
     <div id='stopContent' className='stopContent'>
       <h1>Finch Station</h1>
-      <div className="row row-cols-1 row-cols-md-5 g-4 p-5">
-        {
-          stops.map((stop) => {
-            return (
-              <Stop
-                key={uuidv4()}
-                stop={stop}
-              />
-            );
-          })
-        }
+      <div className='container'>
+        <div className="row row-cols-1 row-cols-md-5 g-4 p-5">
+          {
+            stops.map((stop) => {
+              return (
+                <Stop
+                  key={uuidv4()}
+                  stop={stop}
+                />
+              );
+            })
+          }
+        </div>
       </div>
     </div>
   )

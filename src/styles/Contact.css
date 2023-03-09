@@ -1,0 +1,67 @@
+.contactMainContent{
+  position: relative;
+  width: 100%;
+  /* background-color: #eeeeee; */
+  background-image: url(../assets/0004.jpg);
+  padding: 100px 0;
+}
+
+.contactMainContent::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url(../assets/0004.jpg); */
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.contactContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contactContainer h2{
+  color: darkorange;
+  text-shadow: 1px 1px 1px rgba(255, 255, 0, 0.8);
+}
+
+.contactContainer h6{
+  font-style: italic;
+}
+
+form{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 50px 50px 100px 50px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(155, 155, 155, 0.4),
+              inset 10px 10px 10px rgba(100, 100, 100, 0.6),
+              inset -10px -10px 10px rgba(100, 100, 100, 0.4);
+  z-index: 2;
+}
+
+.formContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.formContent div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.formContent div textarea{
+  height: 100%;
+  resize: none;
+}

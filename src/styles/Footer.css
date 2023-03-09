@@ -2,9 +2,9 @@
   height: 20vh;
   color: white;
   background: rgb(84,0,0);
-  background: linear-gradient(90deg, rgba(84,0,0,1) 0%, rgba(154,0,14,1) 30%, rgba(255,0,0,1) 70%, rgba(84,0,0,1) 100%);
+  background: linear-gradient(90deg, rgba(40,0,0,1) 0%, rgba(80,0,14,1) 30%, rgba(100,0,0,1) 70%, rgba(40,0,0,1) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 -5px 5px rgb(0, 0, 0);
+  box-shadow: 0 -2px 2px rgb(0, 0, 0);
 }
