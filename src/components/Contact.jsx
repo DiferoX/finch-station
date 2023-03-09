@@ -20,7 +20,7 @@ const Contact = () => {
               <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message *"></textarea>
             </div>
           </div>
-          <button className="btn btn-primary">Send Message</button>
+          <button className="btn btn-primary btn-sm">Send Message</button>
         </form>
       </div>
     </section>
