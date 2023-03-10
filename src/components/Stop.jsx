@@ -1,13 +1,12 @@
 import React from 'react'
 import '../styles/Stop.css'
-import Img0001 from '../assets/0003.jpg'
 
 const Stop = ({stop, infoStation}) => {
   // console.log(stop)
   return (
 
     <div className="cardBox card mb-2" onClick={() => infoStation(stop)}>
-      <div className="card-body">
+      <div className="cardBody">
         <h6 className="card-title">{stop.name}</h6>
         <p className="card-text">{stop.agency}</p>
       </div>

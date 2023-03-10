@@ -10,17 +10,17 @@ const NavBar = () => {
         <h2>Finch Station</h2>
       </a>
       <ul className="nav nav-pills">
-        <li className="nav-item">
-          <a className="nav-link" href="#services">Services</a>
+        <li className="navItem">
+          <a className="navLink" href="#services">Services</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#stopContent">Routes</a>
+        <li className="navItem">
+          <a className="navLink" href="#stopContent">Routes</a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#contact">Contact</a>
+        <li className="navItem">
+          <a className="navLink" href="#contact">Contact</a>
         </li>
-        <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+        <li className="navItem dropdown">
+          <a className="navLink dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
           <ul className="dropdown-menu">
             <li><a className="dropdown-item" href="#scrollspyHeading3">Third</a></li>
             <li><a className="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>

@@ -1,0 +1,22 @@
+.cardBox{
+  position: relative;
+  border-bottom: 2px solid darkorange;
+}
+
+.cardBox h5{
+  color: blue;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.timeContent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.timeContent p{
+  font-size: 0.6em;
+}
