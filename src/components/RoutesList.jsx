@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { images } from './ImagesRand';
 
 const RoutesList = (props) => {
-  console.log(props.route.stop_times);
+  // console.log(props.route.stop_times);
 
   const [stopTimes, setStopTimes] = useState(props.route.stop_times)
 

@@ -20,4 +20,11 @@
 
 .stopContent h1{
   color: white;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+
+.stopContent h6{
+  color: darkorange;
+  font-style: italic;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
 }

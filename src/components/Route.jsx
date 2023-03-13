@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Route = (props) => {
-  console.log(props.time.departure_time);
+  // console.log(props.time.departure_time);
 
   return (
     <>
